@@ -12,7 +12,7 @@
 - create project on firebase
 - configure your Realtime Database
 - download `google-services.json` from your firebase project
-- put `google-services.json` to `app/` directory
+- put `google-services.json` to `app/` directory, or connect your app to firebase with android studio
 - edit `FIREBASE HOST` and `FIREBASE AUTH` in iot.ino
 - build your APK
 
