@@ -4,7 +4,7 @@
 | Category | Unit |
 | ------------- | ------------- |
 | MCU  | Wemos D1  |
-| Sensor | PIR HC-SR04 |
+| Sensor | PIR SR602 |
 | Output | LCD 20x4 I2C |
 | Cloud | Firebase Realtime Database |
 
