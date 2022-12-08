@@ -4,7 +4,7 @@
 | Category | Unit |
 | ------------- | ------------- |
 | MCU  | Wemos D1  |
-| Sensor | PIR SR602 |
+| Sensors | PIR SR602, IR MLX90614, Ultrasonic HC SR04 |
 | Output | LCD 20x4 I2C |
 | Cloud | Firebase Realtime Database |
 
@@ -13,7 +13,7 @@
 - configure your Realtime Database
 - download `google-services.json` from your firebase project
 - put `google-services.json` to `app/` directory, or connect your app to firebase with android studio
-- edit `FIREBASE HOST` and `FIREBASE AUTH` in iot.ino
+- edit `FIREBASE_HOST`,`FIREBASE_AUTH`,`WIFI_SSID`,`WIFI_PASSWORD` in [iot.ino](iot.ino)
 - build your APK
 
 ## demo
